@@ -19,7 +19,7 @@ Embedded Tomcat Server
 Application Architecture
 The application is built using the MVC (Model–View–Controller) architecture. The controller handles HTTP requests and responses, the service layer contains the core calculation logic, and the view layer consists of HTML pages rendered dynamically using Thymeleaf. This separation of concerns improves code clarity, maintainability, and scalability.
 
-Project Structure
+Project Structure:
 src/main/java
  └── com.example.app
      ├── controller
