@@ -33,7 +33,7 @@ src/main/resources
  │   └── result.html
  └── application.properties
 
-Functional Description
+Functional Description:
 
 When the user opens the application, a calculator page is displayed where two numeric values can be entered. The user selects an arithmetic operation by clicking the corresponding button. The form data is submitted to the Spring Boot controller using a POST request. The controller receives the input values, calls the appropriate method from the service class, and processes the calculation. The result is then sent back to the view and displayed on the result page. If an invalid operation occurs, such as division by zero, the application displays a meaningful error message instead of crashing.
 
